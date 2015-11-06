@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table practice</title> </head>
+    <link href='https://fonts.googleapis.com/css?family=Tillana|Caveat|Macondo+Swash+Caps|Ribeye+Marrow' rel='stylesheet' type='text/css'>
+    <link type="text/css" href="shop.css" rel="stylesheet"></link>
+    <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'></link>
+
+<body>
+
+<header id="fade"><img src="images/donutsHeader.jpg" id="donutHeader"></img></header>
+
+<!--<p display="none" id="vidAnchor"></p>-->
+<fieldset id ="storeMaker">
+    <legend style="font-size: 50px; font-style: strong;"> Store Maker </legend>
+    <br>
+    <input class="bar" type ="text" maxlength="20" id="loc" placeholder="Spatio-Temporal Locale" >
+      </input>
+    <br>
+    <br>
+    <input class="bar" type="text" id="minCR" placeholder="Minimum Donut-minion Population" maxlength="6" onkeypress='return ((event.charCOde >= 48) && (event.charCode 57))'>
+  </input>
+    <br>
+    <br>
+    <input class="bar" type="text" id="maxCR" placeholder="Max Donut-minion Population" maxlength="6" onkeypress='return (event.charCOde >= 48 && event.charCode 57)'>
+    </input>
+    <br>
+    <br>
+    <input class="bar" type="text" id="donutPerCust" placeholder="Grease-Bombs per Mininon" maxlength="6" onkeypress='return (event.charCode >= 48 && event.charCode <= 57)|| event.charCode == 46'>
+    </input>
+    <br>
+    <br>
+    <button id ="inputButton" type="submit" value="Submit" onclick="addNewShop()">Generate Store</button>
+</fieldset>
+
+
+<div id="tableAnchor"></div>
+
+<section>
+
+
+        <p display='inline' align="right"> <a href="https://youtu.be/daXWMI6-tMo"> <img display='inline' id="ad" align="left" src="images/spagAd.jpg" id="ad" ></img></a> <br> **Sponsored Advertisement**<br> Need to feed an army? Use Hetty Resetti's Spaghetti Machete! The only multiuse tool for the culinary arts to self-protection, and anthing in between! Its durable! Its unique! Its Hetty Resetti's Spaghetti Machete!</p>
+
+</section>
+
+</body>
+<script type="text/javascript" src="shop.js"></script>
+
+</html>
+
